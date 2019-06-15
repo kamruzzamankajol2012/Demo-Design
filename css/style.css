@@ -1,0 +1,132 @@
+body{
+background-color: #333;
+  color:#fff;
+}
+.navbar{
+  border-bottom: 3px solid #008ed6;
+  background-color: #292b2c;
+  opacity: 0.7;
+}
+.nav-link{
+  text-transform: uppercase;
+}
+.carousel-item{
+  height: 450px;
+}
+.carousel-img-1{
+  background-image: url(../imges/m1.jpg) ;
+	background-size: cover;
+}
+.carousel-img-2{
+  background-image: url(../imges/m2.jpg) ;
+	background-size: cover;
+}
+.carousel-img-3{
+  background-image: url(../imges/m3.jpg) ;
+	background-size: cover;
+}
+.livechat{
+  position: relative;
+  background-image: url(../imges/cr2.jpg) ;
+	background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px;
+
+}
+.videochat{
+  position: relative;
+  background-image: url(../imges/ex2.jpg) ;
+	background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px;
+
+}
+.dark-overlay{
+
+  background-color: rgba(0,0,0,0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height:100%;
+
+
+}
+.fa{
+
+  font-size: 30px;
+
+}
+.card-form{
+  opacity: 0.8;
+}
+.home-inner{
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+.i{
+  height: 270px;
+
+}
+.m{
+  font-size: 15px;
+}
+.rounded-circle{
+  height: 350px;
+  width: 350px;
+}
+.kp{
+  text-decoration: none;
+  list-style: none;
+  font-weight: ;
+  color:white;
+  display: block;
+  font-color:white;
+}
+@media(max-width:767px){
+
+        .livechat{
+          min-height: 300px;
+        }
+        .videochat{
+          min-height: 300px;
+        }
+        @media(max-width:320px){
+
+                .livechat{
+                  min-height: 350px;
+                }
+                .videochat{
+                  min-height: 350px;
+                }
+
+}
+@media(max-width:480px){
+
+         .im{
+           font-size: 2rem;
+         }
+         .im1{
+           font-size: 2rem;
+         }
+         .im2{
+           font-size: 2rem;
+         }
+         .livechat{
+          min-height: 300px;
+        }
+        .videochat{
+          min-height: 300px;
+        }
+        @media(max-width:320px){
+
+                .livechat{
+                  min-height: 350px;
+                }
+                .videochat{
+                  min-height: 350px;
+                }
+
+}
